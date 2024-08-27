@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -11,6 +13,8 @@
   --White: hsl(0, 0%, 100%);
   --Slightly-Transparent-White: hsla(0, 0%, 100%, 0.75);
   --Stats-heading-White: hsla(0, 0%, 100%, 0.6);
+  --Lexend-Deca: "Lexend Deca", sans-serif;
+  --Inter:  "Inter", sans-serif;
 }
 
 html,
@@ -38,5 +42,27 @@ img{
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     color: var(--Soft-violet);
+    background-color: var(--Soft-violet);
+}
+p{
+    font-family: var(--Lexend-Deca);
+}
+.main-p{
+    padding: 1rem;
+    font-family: var(--Lexend-Deca);
+    color: var(--Slightly-Transparent-White);
+}
+h1{
+font-family: var(--Lexend-Deca);
+color: var(--White);
+
+}
+h2{
+font-family: var(--Lexend-Deca);
+color: var(--Stats-heading-White);
+padding: 2px;
+}
+.sub-p{
+    font-family: var(--Inter);
 }
 
